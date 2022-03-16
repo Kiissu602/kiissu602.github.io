@@ -1,10 +1,13 @@
-<script setup>
-import Computer from "./components/Computer.vue";
+<script>
+import Desktop from "./components/Desktop.vue";
+export default {
+  components: { Desktop },
+};
 </script>
 
 <template>
   <main>
-    <Computer />
+    <Desktop />
   </main>
 </template>
 
