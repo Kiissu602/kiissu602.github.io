@@ -36,7 +36,7 @@ export default {};
         <fa :icon="['fab', 'github']" class="fai github" />
       </a>
       <a
-        href="https://www.linkedin.com/in/pichai-namwan-193a96234/"
+        href="https://www.linkedin.com/in/pichai-namwan-193a96234"
         target="_blank"
       >
         <fa :icon="['fab', 'linkedin']" class="fai linkedin" />
