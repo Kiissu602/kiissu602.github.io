@@ -1,15 +1,33 @@
 <script>
-import Name from "./name.vue";
+import Image from "./image.vue";
 export default {
-  components: { Name },
+  components: { Image },
 };
 </script>
 <template>
-  <div>
-    <Name />
-    <div>Full Stack Developer</div>
-    <div>Newly Graduate From Chaingmai University</div>
+  <div class="details-box">
+    <div>
+      <Image />
+    </div>
+    <div class="details">
+      <div class="name">Pichai Namwan</div>
+      <div>Full Stack Developer</div>
+      <div>Newly Graduate From Chaingmai University</div>
+    </div>
   </div>
 </template>
 
-<style></style>
+<style scope>
+.details-box {
+  display: flex;
+}
+
+.name {
+  font-size: 64px;
+}
+.details {
+  margin-left: 2rem;
+  padding: 2rem;
+  color: whitesmoke;
+}
+</style>

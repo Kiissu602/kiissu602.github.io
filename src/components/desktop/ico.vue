@@ -2,37 +2,115 @@
 export default {};
 </script>
 <template>
-  <div>
+  <div class="contact-box">
     <div class="contact">
-      <div class="text">
-        <fa :icon="['fas', 'location-pin']" size="2x" />
-        Chomphu Saraphi Chiang Mai
+      <div class="ico">
+        <div>
+          <fa :icon="['fas', 'location-pin']" class="fai" />
+        </div>
+        <div>
+          <fa :icon="['fas', 'phone']" class="fai" />
+        </div>
+        <div>
+          <fa :icon="['fas', 'envelope']" class="fai" />
+        </div>
       </div>
       <div class="text">
-        <fa :icon="['fas', 'phone']" size="2x" />
-        +6661-2705695
-      </div>
-      <div class="text">
-        <fa :icon="['fas', 'envelope']" size="2x" />
-        pichai.n602@gmail.com
+        <div>Chomphu Saraphi Chiang Mai</div>
+        <a href="tel:0612705695">
+          <div class="tel">061-2705695</div>
+        </a>
+        <a href="mailto:pichai.n602@gmail.com">
+          <div class="email">pichai.n602@gmail.com</div>
+        </a>
       </div>
     </div>
     <div class="clickable">
-      <fa :icon="['fab', 'facebook']" size="2x" />
-      <fa :icon="['fab', 'instagram']" size="2x" />
-      <fa :icon="['fab', 'github']" size="2x" />
-      <fa :icon="['fab', 'linkedin']" size="2x" />
+      <a href="https://www.facebook.com/poolmean.devil" target="_blank">
+        <fa :icon="['fab', 'facebook']" class="fai facebook" />
+      </a>
+      <a href="https://www.instagram.com/_mi.nie/?hl=en" target="_blank">
+        <fa :icon="['fab', 'instagram']" class="fai instagram" />
+      </a>
+      <a href="https://github.com/Kiissu602" target="_blank">
+        <fa :icon="['fab', 'github']" class="fai github" />
+      </a>
+      <fa :icon="['fab', 'linkedin']" class="fai" />
     </div>
   </div>
 </template>
 <style scoped>
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 .clickable {
   display: flex;
+  justify-content: space-between;
+  color: whitesmoke;
+}
+.ico,
+.text {
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  margin-top: 24px;
+  color: whitesmoke;
+}
+.email,
+.tel {
+  color: whitesmoke;
+}
+.email:hover,
+.tel:hover {
+  color: #222222;
+  background: whitesmoke;
+  border-radius: 5px;
+  transition: all 0.4s cubic-bezier(0.45, 0, 0.55, 1);
+}
+a {
+  display: flex;
+  text-decoration: none;
+}
+.contact {
+  display: flex;
+  height: 55%;
+}
+.text {
+  margin-left: 12px;
+}
+.ico {
+  align-items: center;
 }
 
-.text {
-  margin-top: 12px;
+.fai {
+  font-size: 30px;
+  padding: 4px;
+  color: whitesmoke;
+}
+.facebook:hover {
+  color: #3b5998;
+  background: whitesmoke;
+  border-radius: 5px;
+  transition: all 0.4s cubic-bezier(0.45, 0, 0.55, 1);
+}
+.instagram:hover {
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  border-radius: 5px;
+}
+
+.github:hover {
+  color: #222222;
+  background: whitesmoke;
+  border-radius: 5px;
+  transition: all 0.4s cubic-bezier(0.45, 0, 0.55, 1);
 }
 </style>

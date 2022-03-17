@@ -1,5 +1,9 @@
+<script></script>
+
 <template>
-  <img src="../../assets/profile_pic.jpg" alt="" class="profile" />
+  <div>
+    <img src="../../assets/profile_pic.jpg" alt="" class="profile" />
+  </div>
 </template>
 
 <style scoped>

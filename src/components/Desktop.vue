@@ -1,25 +1,32 @@
 <script>
-import Image from "./desktop/image.vue";
 import Details from "./desktop/details.vue";
 import Ico from "./desktop/ico.vue";
 export default {
-  components: { Image, Details, Ico },
+  components: { Details, Ico },
 };
 </script>
 
 <template>
-  <div class="container">
-    <div class="deatails"><Image /><Details /><Ico /></div>
+  <div class="card">
+    <div class="card-title"><Details /><Ico /></div>
   </div>
 </template>
 
 <style scoped>
-.container {
-  height: 1080px;
+@import "../assets/base.css";
+.card {
+  width: 96vw;
+  height: 96vh;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 2rem;
 }
-.deatails {
+.card-title {
+  background-color: #283848;
+  margin: -2rem;
   padding: 2rem;
   display: flex;
+  border-radius: 5px 5px 0px 0px;
   justify-content: space-around;
 }
 </style>
