@@ -35,7 +35,12 @@ export default {};
       <a href="https://github.com/Kiissu602" target="_blank">
         <fa :icon="['fab', 'github']" class="fai github" />
       </a>
-      <fa :icon="['fab', 'linkedin']" class="fai" />
+      <a
+        href="https://www.linkedin.com/in/pichai-namwan-193a96234/"
+        target="_blank"
+      >
+        <fa :icon="['fab', 'linkedin']" class="fai linkedin" />
+      </a>
     </div>
   </div>
 </template>
@@ -109,6 +114,12 @@ a {
 
 .github:hover {
   color: #222222;
+  background: whitesmoke;
+  border-radius: 5px;
+  transition: all 0.4s cubic-bezier(0.45, 0, 0.55, 1);
+}
+.linkedin:hover {
+  color: #0e76a8;
   background: whitesmoke;
   border-radius: 5px;
   transition: all 0.4s cubic-bezier(0.45, 0, 0.55, 1);
