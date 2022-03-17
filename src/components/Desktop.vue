@@ -9,6 +9,7 @@ export default {
 <template>
   <div class="card">
     <div class="card-title"><Details /><Ico /></div>
+    <div class="card-text">Education</div>
   </div>
 </template>
 
