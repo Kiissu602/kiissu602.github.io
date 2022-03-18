@@ -16,7 +16,7 @@ export default {};
         </div>
       </div>
       <div class="text">
-        <div>Chomphu Saraphi Chiang Mai</div>
+        <div class="location">Chomphu Saraphi Chiang Mai</div>
         <a href="tel:0612705695">
           <div class="tel">061-2705695</div>
         </a>
@@ -88,6 +88,13 @@ a {
   align-items: center;
 }
 
+.location,
+.email,
+.tel {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
 .fai {
   font-size: 30px;
   padding: 4px;
@@ -99,6 +106,7 @@ a {
   border-radius: 5px;
   transition: all 0.4s cubic-bezier(0.45, 0, 0.55, 1);
 }
+
 .instagram:hover {
   background: #d6249f;
   background: radial-gradient(
@@ -111,7 +119,6 @@ a {
   );
   border-radius: 5px;
 }
-
 .github:hover {
   color: #222222;
   background: whitesmoke;
