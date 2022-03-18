@@ -24,6 +24,7 @@ export default {
 
 .name {
   font-size: 64px;
+  font-weight: bold;
 }
 .details {
   margin-left: 2rem;
