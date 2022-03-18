@@ -1,7 +1,7 @@
 <script></script>
 
 <template>
-  <div>
+  <div class="pic">
     <img src="../../assets/profile_pic.jpg" alt="" class="profile" />
   </div>
 </template>

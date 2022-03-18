@@ -2,8 +2,9 @@
 import Details from "./desktop/details.vue";
 import Ico from "./desktop/ico.vue";
 import LeftSide from "./desktop/left-side.vue";
+import RightSide from "./desktop/right-side.vue";
 export default {
-  components: { Details, Ico, LeftSide },
+  components: { Details, Ico, LeftSide, RightSide },
 };
 </script>
 
@@ -13,6 +14,7 @@ export default {
     <div class="card-body">
       <LeftSide />
       <hr />
+      <RightSide />
     </div>
   </div>
 </template>
