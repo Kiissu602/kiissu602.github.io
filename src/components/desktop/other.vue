@@ -10,4 +10,8 @@
   </ul>
 </template>
 
-<style></style>
+<style scoped>
+.skill {
+  font-size: 18px;
+}
+</style>

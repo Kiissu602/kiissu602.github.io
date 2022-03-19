@@ -13,7 +13,6 @@ export default {
     <div class="card-title"><Details /><Ico /></div>
     <div class="card-body">
       <LeftSide />
-      <hr />
       <RightSide />
     </div>
   </div>
@@ -26,7 +25,7 @@ export default {
   height: 96vh;
   background-color: whitesmoke;
   border-radius: 5px;
-  padding: 2rem;
+  padding: 1rem;
 }
 .card-title {
   background: #180350;
@@ -39,19 +38,18 @@ export default {
     #cd006b 90%
   );
 
-  margin: -2rem;
-  padding: 2rem;
+  margin: -1rem;
+  padding: 1rem;
   display: flex;
   border-radius: 5px 5px 0px 0px;
   justify-content: space-around;
 }
 
 .card-body {
-  margin-top: 2rem;
-  padding: 2rem 0rem 0rem 0rem;
+  margin-top: 1.5rem;
+  padding: 1rem 0rem 0rem 0rem;
   display: flex;
   justify-content: space-around;
-  height: 75%;
 }
 
 hr {

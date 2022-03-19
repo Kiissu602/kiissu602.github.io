@@ -11,9 +11,9 @@
   </ul>
 </template>
 
-<style scope>
+<style scoped>
 .skill {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   list-style-type: none;
 }

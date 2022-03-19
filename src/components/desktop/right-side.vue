@@ -21,15 +21,15 @@ export default {
   width: 720px;
 }
 .title {
-  font-size: 38px;
+  font-size: 20px;
   font-weight: bold;
 }
 .top {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .fw {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .oth {
   margin-left: 4rem;

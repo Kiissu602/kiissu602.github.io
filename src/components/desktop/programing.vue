@@ -16,7 +16,7 @@
 
 <style scope>
 .skill {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
   list-style-type: none;
 }

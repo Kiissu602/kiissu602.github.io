@@ -30,14 +30,14 @@
   </div>
 </template>
 
-<style scope>
+<style scoped>
 .title {
-  font-size: 38px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .exp {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
   list-style-type: none;
 }
