@@ -15,7 +15,7 @@ export default {
   </div>
 </template>
 
-<style scope>
+<style scoped>
 .skill-box {
   padding: 2rem;
   width: 720px;

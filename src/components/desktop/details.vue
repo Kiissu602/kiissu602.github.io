@@ -17,7 +17,7 @@ export default {
   </div>
 </template>
 
-<style scope>
+<style scoped>
 .details-box {
   display: flex;
 }

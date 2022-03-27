@@ -131,4 +131,55 @@ a {
   border-radius: 5px;
   transition: all 0.4s cubic-bezier(0.45, 0, 0.55, 1);
 }
+
+@media (max-width: 996px) {
+  .email,
+  .tel,
+  .clickable,
+  .text,
+  .ico,
+  .fai {
+    color: #222222;
+  }
+
+  .fai {
+    font-size: 24px;
+  }
+
+  .contact-box {
+    height: 40%;
+  }
+
+  .clickable {
+    margin-top: 1rem;
+  }
+
+  .facebook {
+    color: #3b5998;
+
+    border-radius: 5px;
+    transition: all 0.4s cubic-bezier(0.45, 0, 0.55, 1);
+  }
+
+  .instagram {
+    color: whitesmoke;
+    background: #d6249f;
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    border-radius: 5px;
+    padding: 2px;
+  }
+
+  .linkedin {
+    color: #0e76a8;
+    border-radius: 5px;
+    transition: all 0.4s cubic-bezier(0.45, 0, 0.55, 1);
+  }
+}
 </style>

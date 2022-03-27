@@ -1,25 +1,21 @@
 <script>
-import Details from "./desktop/details.vue";
-import Ico from "./desktop/ico.vue";
-import LeftSide from "./desktop/left-side.vue";
-import RightSide from "./desktop/right-side.vue";
+import Details from "./mobile/details.vue";
+import Contact from "./mobile/contact.vue";
+import Education from "./mobile/education.vue";
+import Skill from "./mobile/skill.vue";
 export default {
-  components: { Details, Ico, LeftSide, RightSide },
+  components: { Details, Contact, Education, Skill },
 };
 </script>
 
 <template>
   <div class="card">
-    <div class="card-title"><Details /><Ico /></div>
-    <div class="card-body">
-      <LeftSide />
-      <RightSide />
-    </div>
+    <div class="card-title"><Details /></div>
+    <div class="card-body"><Contact /><Education /><Skill /></div>
   </div>
 </template>
 
 <style scoped>
-@import "../assets/base.css";
 .card {
   width: 96vw;
   height: 96vh;
@@ -28,6 +24,9 @@ export default {
   padding: 1rem;
 }
 .card-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: radial-gradient(
     circle at 30% 107%,
     #040015 0%,
@@ -36,23 +35,15 @@ export default {
     #650045 60%,
     #cd006b 90%
   );
-
   margin: -1rem;
   padding: 1rem;
-  display: flex;
   border-radius: 5px 5px 0px 0px;
-  justify-content: space-around;
 }
-
 .card-body {
   margin-top: 1.5rem;
   padding: 1rem 0rem 0rem 0rem;
   display: flex;
-  justify-content: space-around;
-}
-
-hr {
-  border-style: inset;
-  border-width: 1px;
+  flex-direction: column;
+  align-items: center;
 }
 </style>

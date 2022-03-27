@@ -4,7 +4,7 @@
   <div>
     <span class="title">Education</span>
     <ul>
-      <li class="school">Wattanothaipayap school 2012 - 2018</li>
+      <li class="school">Wattanothaipayap school 2012 - 2017</li>
       <ul>
         <li class="school-details">Mathematic - Science</li>
         <li class="school-details">Gifted Math</li>
