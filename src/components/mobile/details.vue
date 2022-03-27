@@ -14,7 +14,7 @@ export default {
 <style scoped>
 .name {
   color: whitesmoke;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: bold;
 }
 .det {

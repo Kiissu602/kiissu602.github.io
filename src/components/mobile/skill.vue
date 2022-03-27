@@ -30,7 +30,7 @@ export default {};
   width: 95%;
 }
 .sk {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 1rem;
   margin-top: 1rem;

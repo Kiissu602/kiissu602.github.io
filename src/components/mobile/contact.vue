@@ -14,13 +14,12 @@ export default {
 
 <style scoped>
 .con {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
 .con-box {
   width: 95%;
-  min-width: 269px;
 }
 </style>
