@@ -6,8 +6,8 @@
 
 <style scoped>
 .profile {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
   border: 4px whitesmoke solid;
 }
