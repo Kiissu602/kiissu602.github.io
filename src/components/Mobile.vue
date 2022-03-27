@@ -1,17 +1,16 @@
 <script>
 import Details from "./mobile/details.vue";
 import Contact from "./mobile/contact.vue";
-import Education from "./mobile/education.vue";
 import Skill from "./mobile/skill.vue";
 export default {
-  components: { Details, Contact, Education, Skill },
+  components: { Details, Contact, Skill },
 };
 </script>
 
 <template>
   <div class="card">
     <div class="card-title"><Details /></div>
-    <div class="card-body"><Contact /><Education /><Skill /></div>
+    <div class="card-body"><Contact /><Skill /></div>
   </div>
 </template>
 
