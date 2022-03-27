@@ -20,7 +20,7 @@ export default {
 }
 
 .con-box {
-  width: 400px;
+  width: 95%;
   min-width: 269px;
 }
 </style>

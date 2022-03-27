@@ -24,7 +24,7 @@ export default {};
 
 <style scoped>
 .edu-box {
-  width: 400px;
+  width: 95%;
 }
 .edu {
   font-size: 24px;

@@ -27,7 +27,7 @@ export default {};
 
 <style scoped>
 .skill-box {
-  width: 400px;
+  width: 95%;
 }
 .sk {
   font-size: 24px;
